@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "description": "Internal integration testing and benchmarking tool for React Native",
   "scripts": {
-    "build": "./build.sh"
+    "build": "node init && ./build.sh"
   },
   "dependencies": {
     "babel-plugin-istanbul": "^7.0.0"
