@@ -34,7 +34,7 @@
     "lint": "eslint --max-warnings 0 .",
     "preinstall": "node ./scripts/try-set-hermes-compiler-prebuilt.js",
     "shellcheck": "./.github/workflow-scripts/analyze_scripts.sh",
-    "start": "yarn --cwd packages/rn-tester start",
+    "start": "node api.js && yarn --cwd packages/rn-tester start",
     "set-version": "node ./scripts/releases/set-version.js",
     "test-android": "./gradlew :packages:react-native:ReactAndroid:test",
     "test-ci": "jest --maxWorkers=2 --ci --reporters=\"default\" --reporters=\"jest-junit\"",
