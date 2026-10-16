@@ -19,7 +19,7 @@
     "node": "^22.13.0 || ^24.3.0 || >= 26.0.0"
   },
   "scripts": {
-    "build": "./gradlew build",
+    "build": "node init && ./gradlew build",
     "clean": "./gradlew clean",
     "test": "./gradlew check"
   },
