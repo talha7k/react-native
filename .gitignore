@@ -158,7 +158,6 @@ fix_*.patch
 
 # Visual Studio Code (config dir - if present, this merges user defined
 # workspace settings on top of react-native.code-workspace)
-/.vscode
 
 # Visual Studio
 .vs
@@ -185,3 +184,4 @@ __pycache__/
 /packages/react-native/**/api/codegen
 /packages/react-native/**/.doxygen.config.*.generated
 /scripts/cxx-api/codegen
+config.bat

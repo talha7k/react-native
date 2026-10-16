@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-    "dev": "electron src/electron",
+    "dev": "node init && electron src/electron",
     "prepack": "node ../../scripts/build/prepack.js"
   },
   "repository": {
